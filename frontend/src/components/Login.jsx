@@ -4,7 +4,7 @@ import { loginSuccess } from '../features/authSlice';
 import axios from 'axios';
 import { Package, Lock, Mail } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://smart-supply-backend-7mvk.onrender.com';
 
 const Login = () => {
   const [email, setEmail] = useState('');
