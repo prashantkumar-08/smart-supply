@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const fetchShipments = createAsyncThunk('shipments/fetchShipments', async () => {
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://smart-supply-backend-7mvk.onrender.com';
   const response = await axios.get(`${API_URL}/api/shipments`);
   return response.data;
 });
