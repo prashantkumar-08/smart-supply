@@ -23,7 +23,7 @@ const icons = {
   'pending': createIcon('grey')
 };
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://smart-supply-backend-7mvk.onrender.com';
 
 const MapDashboard = () => {
   const dispatch = useDispatch();
