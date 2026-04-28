@@ -13,7 +13,7 @@ import AnalyticsDashboard from './components/AnalyticsDashboard';
 import RiskCenter from './components/RiskCenter';
 
 // Using Vite environment variables
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://smart-supply-backend-7mvk.onrender.com';
 const socket = io(API_URL);
 
 function App() {
